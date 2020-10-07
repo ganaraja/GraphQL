@@ -1,0 +1,71 @@
+GIT
+  remote: git://github.com/github/graphql-client.git
+  revision: 8a6ec748cb4580c09f308376a1d5d1eecf134b98
+  specs:
+    graphql-client (0.1.1)
+      activesupport (>= 3.0, < 6.0)
+      graphql (~> 0.18, >= 0.18.11)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    autoprefixer-rails (6.5.0.1)
+      execjs
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    colorize (0.8.1)
+    concurrent-ruby (1.0.2)
+    dotenv (2.1.1)
+    execjs (2.7.0)
+    graphql (0.18.11)
+    i18n (0.7.0)
+    json (2.0.2)
+    minitest (5.9.1)
+    puma (3.6.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.5.0)
+    sass (3.4.22)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thread_safe (0.3.5)
+    tilt (2.0.5)
+    turbolinks-source (5.0.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap-sass
+  colorize
+  dotenv
+  graphql (= 0.18.11)
+  graphql-client!
+  json
+  minitest (~> 5.2)
+  puma
+  rack-protection
+  rack-test (~> 0.6)
+  rake (~> 10.0)
+  sass
+  sinatra (>= 1.4)
+  turbolinks-source
+
+RUBY VERSION
+   ruby 2.2.5p319
+
+BUNDLED WITH
+   1.12.5

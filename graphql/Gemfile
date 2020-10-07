@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', '~> 1.4.6'
+gem 'sinatra-contrib'
+gem 'sinatra-activerecord'
+gem 'puma', '~> 2.11.1'
+gem 'rake'
+gem 'activerecord-jdbcsqlite3-adapter'
+gem 'graphql'
+gem 'rack-contrib'
+gem 'pry'

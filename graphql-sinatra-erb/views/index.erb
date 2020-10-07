@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7 col-md-7">
+      <% posts.each_node do |post| %>
+        <%= erb :post_preview, locals: { post: post } %>
+      <% end %>
+    </div>
+  </div>
+</div>
